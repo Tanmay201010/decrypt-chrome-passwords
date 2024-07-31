@@ -1,4 +1,4 @@
-#Full Credits to LimerBoy
+#Full Credits to Liy
 import os
 import re
 import sys

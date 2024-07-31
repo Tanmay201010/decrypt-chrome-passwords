@@ -11,8 +11,8 @@ import shutil
 import csv
 
 #GLOBAL CONSTANT
-CHROME_PATH_LOCAL_STATE = os.path.normpath(r"%s\AppData\Local\Google\Chrome\User Data\Local State"%(os.environ['USERPROFILE']))
-CHROME_PATH = os.path.normpath(r"%s\AppData\Local\Google\Chrome\User Data"%(os.environ['USERPROFILE']))
+CHROME_PATH_LOCAL_STATE = os.path.normpath(r"Local State"%(os.environ['USERPROFILE']))
+CHROME_PATH = os.path.normpath(r"User Data"%(os.environ['USERPROFILE']))
 
 def get_secret_key():
     try:
